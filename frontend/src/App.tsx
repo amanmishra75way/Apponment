@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Loader from "./components/Loader";
 
+// Keep these small ones eagerly loaded
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 
